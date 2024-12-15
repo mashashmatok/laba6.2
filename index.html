@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Додавання об'єкта</title>
+    <script>
+      function addObject() {
+        var newElement = document.createElement("div");
+        newElement.style.width = "100px";
+        newElement.style.height = "100px";
+        newElement.style.backgroundColor = "blue";
+        document.body.appendChild(newElement);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="addObject()">Додати об'єкт</button>
+  </body>
+</html>
